@@ -1,0 +1,11 @@
+**/__pycache__/*
+**/*.h5
+**/*.pyc
+**/*.tar.gz
+datasets/*/
+playground.py
+examples/coco_converter
+plans/*/
+assets/*/
+assets/*.tar.gz
+Driver_code/custom_backbone/*h5

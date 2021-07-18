@@ -1,0 +1,9 @@
+Collecting keras
+  Using cached Keras-2.4.3-py2.py3-none-any.whl (36 kB)
+Requirement already satisfied: numpy>=1.9.1 in e:\m.tech_project_current\venv\lib\site-packages (from keras) (1.18.5)
+Requirement already satisfied: pyyaml in e:\m.tech_project_current\venv\lib\site-packages (from keras) (5.4.1)
+Requirement already satisfied: scipy>=0.14 in e:\m.tech_project_current\venv\lib\site-packages (from keras) (1.4.1)
+Requirement already satisfied: h5py in e:\m.tech_project_current\venv\lib\site-packages (from keras) (2.10.0)
+Requirement already satisfied: six in e:\m.tech_project_current\venv\lib\site-packages (from h5py->keras) (1.15.0)
+Installing collected packages: keras
+Successfully installed keras-2.4.3

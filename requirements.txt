@@ -1,0 +1,12 @@
+segmentation-models==0.2.0
+tensorflow-gpu>=2.0
+keras==2.3.0
+joblib
+numpy
+tqdm
+cython
+pycocotools
+h5py
+transformers
+Pillow
+opencv-python

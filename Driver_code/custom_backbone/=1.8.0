@@ -1,0 +1,48 @@
+Requirement already satisfied: tensorflow in e:\m.tech_project_current\venv\lib\site-packages (2.1.0)
+Requirement already satisfied: astor>=0.6.0 in e:\m.tech_project_current\venv\lib\site-packages (from tensorflow) (0.8.1)
+Requirement already satisfied: tensorflow-estimator<2.2.0,>=2.1.0rc0 in e:\m.tech_project_current\venv\lib\site-packages (from tensorflow) (2.1.0)
+Requirement already satisfied: gast==0.2.2 in e:\m.tech_project_current\venv\lib\site-packages (from tensorflow) (0.2.2)
+Requirement already satisfied: protobuf>=3.8.0 in e:\m.tech_project_current\venv\lib\site-packages (from tensorflow) (3.14.0)
+Collecting keras-applications>=1.0.8 (from tensorflow)
+  Using cached https://files.pythonhosted.org/packages/71/e3/19762fdfc62877ae9102edf6342d71b28fbfd9dea3d2f96a882ce099b03f/Keras_Applications-1.0.8-py3-none-any.whl
+Collecting keras-preprocessing>=1.1.0 (from tensorflow)
+  Using cached https://files.pythonhosted.org/packages/79/4c/7c3275a01e12ef9368a892926ab932b33bb13d55794881e3573482b378a7/Keras_Preprocessing-1.1.2-py2.py3-none-any.whl
+Requirement already satisfied: termcolor>=1.1.0 in e:\m.tech_project_current\venv\lib\site-packages (from tensorflow) (1.1.0)
+Requirement already satisfied: google-pasta>=0.1.6 in e:\m.tech_project_current\venv\lib\site-packages (from tensorflow) (0.2.0)
+Requirement already satisfied: absl-py>=0.7.0 in e:\m.tech_project_current\venv\lib\site-packages (from tensorflow) (0.11.0)
+Requirement already satisfied: tensorboard<2.2.0,>=2.1.0 in e:\m.tech_project_current\venv\lib\site-packages (from tensorflow) (2.1.1)
+Requirement already satisfied: wrapt>=1.11.1 in e:\m.tech_project_current\venv\lib\site-packages (from tensorflow) (1.12.1)
+Requirement already satisfied: numpy<2.0,>=1.16.0 in e:\m.tech_project_current\venv\lib\site-packages (from tensorflow) (1.18.5)
+Requirement already satisfied: six>=1.12.0 in e:\m.tech_project_current\venv\lib\site-packages (from tensorflow) (1.15.0)
+Requirement already satisfied: grpcio>=1.8.6 in e:\m.tech_project_current\venv\lib\site-packages (from tensorflow) (1.32.0)
+Requirement already satisfied: wheel>=0.26; python_version >= "3" in e:\m.tech_project_current\venv\lib\site-packages (from tensorflow) (0.36.2)
+Requirement already satisfied: scipy==1.4.1; python_version >= "3" in e:\m.tech_project_current\venv\lib\site-packages (from tensorflow) (1.4.1)
+Requirement already satisfied: opt-einsum>=2.3.2 in e:\m.tech_project_current\venv\lib\site-packages (from tensorflow) (3.3.0)
+Requirement already satisfied: h5py in e:\m.tech_project_current\venv\lib\site-packages (from keras-applications>=1.0.8->tensorflow) (2.10.0)
+Requirement already satisfied: setuptools>=41.0.0 in e:\m.tech_project_current\venv\lib\site-packages (from tensorboard<2.2.0,>=2.1.0->tensorflow) (41.2.0)
+Requirement already satisfied: markdown>=2.6.8 in e:\m.tech_project_current\venv\lib\site-packages (from tensorboard<2.2.0,>=2.1.0->tensorflow) (3.3.3)
+Requirement already satisfied: requests<3,>=2.21.0 in e:\m.tech_project_current\venv\lib\site-packages (from tensorboard<2.2.0,>=2.1.0->tensorflow) (2.25.1)
+Requirement already satisfied: google-auth<2,>=1.6.3 in e:\m.tech_project_current\venv\lib\site-packages (from tensorboard<2.2.0,>=2.1.0->tensorflow) (1.24.0)
+Requirement already satisfied: google-auth-oauthlib<0.5,>=0.4.1 in e:\m.tech_project_current\venv\lib\site-packages (from tensorboard<2.2.0,>=2.1.0->tensorflow) (0.4.2)
+Requirement already satisfied: werkzeug>=0.11.15 in e:\m.tech_project_current\venv\lib\site-packages (from tensorboard<2.2.0,>=2.1.0->tensorflow) (1.0.1)
+Requirement already satisfied: importlib-metadata; python_version < "3.8" in e:\m.tech_project_current\venv\lib\site-packages (from markdown>=2.6.8->tensorboard<2.2.0,>=2.1.0->tensorflow) (3.4.0)
+Requirement already satisfied: idna<3,>=2.5 in e:\m.tech_project_current\venv\lib\site-packages (from requests<3,>=2.21.0->tensorboard<2.2.0,>=2.1.0->tensorflow) (2.10)
+Requirement already satisfied: urllib3<1.27,>=1.21.1 in e:\m.tech_project_current\venv\lib\site-packages (from requests<3,>=2.21.0->tensorboard<2.2.0,>=2.1.0->tensorflow) (1.26.3)
+Requirement already satisfied: chardet<5,>=3.0.2 in e:\m.tech_project_current\venv\lib\site-packages (from requests<3,>=2.21.0->tensorboard<2.2.0,>=2.1.0->tensorflow) (4.0.0)
+Requirement already satisfied: certifi>=2017.4.17 in e:\m.tech_project_current\venv\lib\site-packages (from requests<3,>=2.21.0->tensorboard<2.2.0,>=2.1.0->tensorflow) (2020.12.5)
+Requirement already satisfied: cachetools<5.0,>=2.0.0 in e:\m.tech_project_current\venv\lib\site-packages (from google-auth<2,>=1.6.3->tensorboard<2.2.0,>=2.1.0->tensorflow) (4.2.1)
+Requirement already satisfied: rsa<5,>=3.1.4; python_version >= "3.6" in e:\m.tech_project_current\venv\lib\site-packages (from google-auth<2,>=1.6.3->tensorboard<2.2.0,>=2.1.0->tensorflow) (4.7)
+Requirement already satisfied: pyasn1-modules>=0.2.1 in e:\m.tech_project_current\venv\lib\site-packages (from google-auth<2,>=1.6.3->tensorboard<2.2.0,>=2.1.0->tensorflow) (0.2.8)
+Requirement already satisfied: requests-oauthlib>=0.7.0 in e:\m.tech_project_current\venv\lib\site-packages (from google-auth-oauthlib<0.5,>=0.4.1->tensorboard<2.2.0,>=2.1.0->tensorflow) (1.3.0)
+Requirement already satisfied: zipp>=0.5 in e:\m.tech_project_current\venv\lib\site-packages (from importlib-metadata; python_version < "3.8"->markdown>=2.6.8->tensorboard<2.2.0,>=2.1.0->tensorflow) (3.4.0)
+Requirement already satisfied: typing-extensions>=3.6.4; python_version < "3.8" in e:\m.tech_project_current\venv\lib\site-packages (from importlib-metadata; python_version < "3.8"->markdown>=2.6.8->tensorboard<2.2.0,>=2.1.0->tensorflow) (3.7.4.3)
+Requirement already satisfied: pyasn1>=0.1.3 in e:\m.tech_project_current\venv\lib\site-packages (from rsa<5,>=3.1.4; python_version >= "3.6"->google-auth<2,>=1.6.3->tensorboard<2.2.0,>=2.1.0->tensorflow) (0.4.8)
+Requirement already satisfied: oauthlib>=3.0.0 in e:\m.tech_project_current\venv\lib\site-packages (from requests-oauthlib>=0.7.0->google-auth-oauthlib<0.5,>=0.4.1->tensorboard<2.2.0,>=2.1.0->tensorflow) (3.1.0)
+Installing collected packages: keras-applications, keras-preprocessing
+  Found existing installation: Keras-Applications 1.0.2
+    Uninstalling Keras-Applications-1.0.2:
+      Successfully uninstalled Keras-Applications-1.0.2
+  Found existing installation: Keras-Preprocessing 1.0.1
+    Uninstalling Keras-Preprocessing-1.0.1:
+      Successfully uninstalled Keras-Preprocessing-1.0.1
+Successfully installed keras-applications-1.0.8 keras-preprocessing-1.1.2
